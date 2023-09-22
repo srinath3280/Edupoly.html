@@ -95,13 +95,18 @@
                     <fieldset>
                         <legend>Login Here</legend><br>
                         <label for="uname">Username</label>
-                        <input type="text" id="uname" placeholder="Enter Username" maxlength="7"><br><br>
+                        <input type="text" id="uname" placeholder="Enter Username" maxlength="15"><br><br>
                         <label for="upwd">Password</label>
-                        <input type="password" id="upwd" placeholder="Enter Password" maxlength="4"><br><br>
-                        <button>Login</button><br>
-                    </fieldset>
+                        <input type="password" id="upwd" placeholder="Enter Password" maxlength="8"><br><br>
+                        <button onclick="login()">Login</button><br>
+                    </fieldset> 
                 </div>
             </div>
         </form>
+        <script>
+            function login(){
+                alert("Successfully Login..!")
+            }
+        </script>
     </body>
 </html>
